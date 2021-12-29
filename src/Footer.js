@@ -24,13 +24,13 @@ const Footer = () => {
         <div className="follow-links">
           <h5>Follow Us</h5>
           <div className="social-links">
-            <div>
+            <div className="follow-links-icon" >
               <FaFacebookF />
             </div>
-            <div>
+            <div className="follow-links-icon">
               <FaInstagram />
             </div>
-            <div>
+            <div className="follow-links-icon">
               <FaYoutube />
             </div>
           </div>

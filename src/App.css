@@ -240,9 +240,16 @@ html {
   justify-content: space-between;
 }
 .follow-links {
+
   grid-column: 3/4;
   text-align: center;
 }
+.follow-links-icon { 
+	transition: all .2s ease-in-out; 
+}
+.follow-links-icon:hover { 
+    	transform: scale(1.5); 
+    }
 .copyright {
   grid-column: 2/4;
 
